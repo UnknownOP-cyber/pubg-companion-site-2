@@ -4,198 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="google-site-verification" content="rfWoy1HWtlaCHy5CN8coHj37R3y__MUSgHewu0D3lo8" />
+   <meta name="google-site-verification" content="rfWoy1HWtlaCHy5CN8coHj37R3y__MUSgHewu0D3lo8" />
     <title>PUBG Mobile v4.2 | Primewood Genesis</title>
     <meta name="description" content="Official guide to PUBG Update 4.1 and 4.2 companions: PowNin the Ninja Penguin and Barkle the Treant. Learn recruitment, skills, and combat strategies.">
     <meta name="keywords" content="PUBG, Agentic AI, PowNin, Barkle AI Pubg, Barkle AI, Update 4.2, Primewood Genesis, Erangel, Gaming Guide,Pubg version 4.2 guide">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Teko:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <style>
-        :root {
-            --pubg-orange: #ff9c00;
-            --pubg-dark: #0b0b0b;
-            --pubg-gray: #1a1a1a;
-            --nature-green: #2ecc71;
-            --bio-blue: #00d2ff;
-            --oracle-purple: #a55eea;
-            --text-light: #f5f5f5;
-        }
-
-        /* CRITICAL RESPONSIVE FIXES */
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            background-color: var(--pubg-dark);
-            color: var(--text-light);
-            font-family: 'Roboto', sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            overflow-x: hidden; /* Prevents side-scrolling */
-            word-wrap: break-word;
-            overflow-wrap: break-word;
-        }
-
-        .container {
-            width: 100% !important;
-            padding-right: 15px !important;
-            padding-left: 15px !important;
-            margin-right: auto !important;
-            margin-left: auto !important;
-        }
-
-        h1, h2, h3, .nav-link, .stat-font {
-            font-family: 'Teko', sans-serif;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            overflow-wrap: break-word;
-        }
-
-        /* --- Hero Section --- */
-        .hero {
-            min-height: 100vh;
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(11, 11, 11, 1)),
-                url('PUBG-Mobile-Version-4.2.avif');
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            align-items: center;
-            padding: 100px 0 60px 0;
-        }
-
-        .hero-title {
-            font-size: clamp(3rem, 12vw, 7.5rem);
-            line-height: 0.85;
-            color: var(--pubg-orange);
-            text-shadow: 4px 4px 0px #000;
-        }
-
-        /* --- Global Sections --- */
-        .section-header {
-            margin-bottom: 2rem;
-            text-align: center;
-        }
-
-        .section-title {
-            font-size: clamp(1.8rem, 6vw, 3.5rem);
-            color: var(--pubg-orange);
-            display: inline-block;
-            position: relative;
-            padding-bottom: 10px;
-            max-width: 100%;
-        }
-
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 60px;
-            height: 4px;
-            background: var(--nature-green);
-        }
-
-        /* --- Image Styling (Fixed for cutting) --- */
-        .img-container {
-            position: relative;
-            overflow: hidden;
-            border: 1px solid #333;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-            margin-bottom: 2rem;
-            width: 100%;
-        }
-
-        .img-header {
-            width: 100%;
-            height: auto;
-            display: block;
-            object-fit: cover;
-            transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-        }
-
-        /* Maintain ratio but prevent overflow */
-        .img-header { aspect-ratio: 16 / 9; }
-        .img-large-rect { aspect-ratio: 21 / 9; }
-
-        @media (max-width: 768px) {
-            .img-large-rect { aspect-ratio: 16 / 9; }
-            .hero { text-align: center; }
-            .btn { width: 100%; margin-bottom: 10px; margin-right: 0 !important; }
-        }
-
-        /* --- Cards & UI (Fixed for cutting) --- */
-        .glass-card {
-            background: var(--pubg-gray);
-            border-left: 4px solid var(--pubg-orange);
-            padding: 1.25rem;
-            height: 100%;
-            border-radius: 0 8px 8px 0;
-            transition: 0.3s ease;
-            width: 100%; /* Forces card to stay inside parent */
-        }
-
-        .barkle-stats {
-            background: #151515;
-            border-radius: 12px;
-            padding: 15px;
-            border: 1px solid #222;
-            width: 100%;
-        }
-
-        .vehicle-img {
-            width: 100%;
-            border-radius: 8px;
-            margin-bottom: 1rem;
-            height: auto;
-        }
-
-        .table-responsive {
-            border: none;
-            overflow-x: auto;
-            -webkit-overflow-scrolling: touch;
-        }
-
-        .highlight-green { color: var(--nature-green); font-weight: bold; }
-        .highlight-orange { color: var(--pubg-orange); font-weight: bold; }
-
-        .meta-table thead {
-            background: var(--pubg-orange);
-            color: black;
-        }
-
-        .badge-new {
-            background: var(--nature-green);
-            color: black;
-            padding: 4px 10px;
-            font-weight: 800;
-            text-transform: uppercase;
-            font-size: 0.75rem;
-            display: inline-block;
-        }
-
-        .badge.bg-oracle {
-            background-color: var(--oracle-purple);
-            color: white;
-        }
-
-        footer {
-            padding: 4rem 15px 2rem;
-            background: linear-gradient(transparent, #050505);
-        }
-
-        /* Table fix for small phones */
-        @media (max-width: 400px) {
-            .meta-table { font-size: 0.8rem; }
-            .glass-card { padding: 1rem; }
-        }
-    </style>
+     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -423,18 +239,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script>
-        AOS.init({ duration: 800, once: true });
-        window.onload = function () {
-            Swal.fire({
-                title: 'NATURE HAS EVOLVED',
-                text: 'Welcome to the v4.2 Intel Portal.',
-                background: '#0b0b0b',
-                color: '#ff9c00',
-                confirmButtonColor: '#2ecc71',
-                confirmButtonText: 'ENTER ERANGEL'
-            });
-        };
-    </script>
+    <script src="script.js"></script>
+
 </body>
 </html>
