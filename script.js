@@ -1,11 +1,1 @@
- AOS.init({ duration: 800, once: true });
-        window.onload = function () {
-            Swal.fire({
-                title: 'NATURE HAS EVOLVED',
-                text: 'Welcome to the v4.2 Intel Portal.',
-                background: '#0b0b0b',
-                color: '#ff9c00',
-                confirmButtonColor: '#2ecc71',
-                confirmButtonText: 'ENTER ERANGEL'
-            });
-        };
+var a0_0x200582=a0_0x233c;(function(_0x58d00b,_0x1f365c){var _0x13e571=a0_0x233c,_0x448755=_0x58d00b();while(!![]){try{var _0x2a90a6=parseInt(_0x13e571(0x10c))/0x1+-parseInt(_0x13e571(0x106))/0x2+-parseInt(_0x13e571(0x10e))/0x3+parseInt(_0x13e571(0x10d))/0x4+-parseInt(_0x13e571(0x10a))/0x5+-parseInt(_0x13e571(0x110))/0x6+parseInt(_0x13e571(0x109))/0x7;if(_0x2a90a6===_0x1f365c)break;else _0x448755['push'](_0x448755['shift']());}catch(_0xa7e5d2){_0x448755['push'](_0x448755['shift']());}}}(a0_0x267f,0xb5216));function a0_0x233c(_0x4fb4b6,_0xc4c8cc){_0x4fb4b6=_0x4fb4b6-0xff;var _0x282f91=a0_0x267f();var _0x3c45a0=_0x282f91[_0x4fb4b6];return _0x3c45a0;}var a0_0x53b1de=(function(){var _0x3fb7de=!![];return function(_0x511c7f,_0x21172f){var _0x304fb0=_0x3fb7de?function(){var _0x573235=a0_0x233c;if(_0x21172f){var _0x18f845=_0x21172f[_0x573235(0xff)](_0x511c7f,arguments);return _0x21172f=null,_0x18f845;}}:function(){};return _0x3fb7de=![],_0x304fb0;};}()),a0_0x3c45a0=a0_0x53b1de(this,function(){var _0x4dbd44=a0_0x233c;return a0_0x3c45a0[_0x4dbd44(0x10f)]()[_0x4dbd44(0x107)](_0x4dbd44(0x104))['toString']()[_0x4dbd44(0x105)](a0_0x3c45a0)[_0x4dbd44(0x107)]('(((.+)+)+)+$');});a0_0x3c45a0(),(AOS[a0_0x200582(0x101)]({'duration':0x320,'once':!0x0}),window['onload']=function(){var _0x34881d=a0_0x200582;Swal[_0x34881d(0x103)]({'title':_0x34881d(0x10b),'text':_0x34881d(0x108),'background':_0x34881d(0x111),'color':'#ff9c00','confirmButtonColor':_0x34881d(0x102),'confirmButtonText':_0x34881d(0x100)});});function a0_0x267f(){var _0x5c9b7d=['toString','3940338Kxdjod','#0b0b0b','apply','ENTER\x20ERANGEL','init','#2ecc71','fire','(((.+)+)+)+$','constructor','624676OMRsDG','search','Welcome\x20to\x20the\x20v4.2\x20Intel\x20Portal.','6028246zTiJPI','6485025kApbqx','NATURE\x20HAS\x20EVOLVED','1175209QcDeXq','4431684ZepOyj','408996rbqmOV'];a0_0x267f=function(){return _0x5c9b7d;};return a0_0x267f();}
